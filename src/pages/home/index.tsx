@@ -44,10 +44,13 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Hello, my name is {userData.nameUser}. </Text>
             </Flex>
+            <Text type="heading2" color="brand1">
+              Full Stack Web Developer
+            </Text>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              I{" "}
               <Text as="span" type="heading1" color="brand1">
                 love
               </Text>{" "}
@@ -60,6 +63,21 @@ export const Home = (): JSX.Element => {
             <Text type="body1" color="grey2">
               Discover here in this environment, created especially for you, all
               my projects and technologies
+            </Text>
+            <Text type="body1" color="grey3">
+              Experience in building <strong>Front End </strong>projects in
+              React js using TypeScript. And in <strong>Back End </strong>
+              projects in Express js using TypeScript and Node js, and as well
+              in Django with Python. Familiarity with good development
+              practices, vast knowledge in HTML, CSS, JavaScript, TypeScript,
+              GIT, API, Node js, Express js, PostgreSql, Python, Next js ,
+              Django and Docker. Passionate about technology since childhood, I
+              always wanted to understand how everything works behind the
+              scenes.{" "}
+            </Text>
+            S
+            <Text type="body1" color="grey2">
+              Fluent in English, and basic Knowledge in French.{" "}
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
