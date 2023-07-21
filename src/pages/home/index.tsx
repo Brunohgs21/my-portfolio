@@ -75,7 +75,7 @@ export const Home = (): JSX.Element => {
               always wanted to understand how everything works behind the
               scenes.{" "}
             </Text>
-            S
+
             <Text type="body1" color="grey2">
               Fluent in English, and basic Knowledge in French.{" "}
             </Text>
